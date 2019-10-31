@@ -150,26 +150,47 @@ startx
 sudo code --user-data-dir=~/root
 
 Ubuntu
+
 sudo adduser lubos
+
 sudo usermod -aG sudo lubos
+
 su lubos
+
 apt update
+
 sudo apt upgrade
+
 sudo apt dist-upgrade
+
 sudo add-apt-repository universe
+
 sudo add-apt-repository multiverse
+
 sudo apt install tasksel
+
 sudo tasksel
+
 sudo reboot
+
 sudo apt-get install ubuntu-desktop
+
 sudo apt-get install xubuntu-desktop
+
 sudo apt-get install kubuntu-desktop
+
 sudo reboot
+
 apt install xserver-xorg-core
+
 sudo apt install xrdp xorgxrdp -y
+
 echo mate-session> ~/.xsession
+
 sudo apt-get install mate-core
+
 sudo ufw allow 3389/tcp
+
 sudo reboot
 =========================================================================================
 
